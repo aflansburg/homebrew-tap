@@ -14,22 +14,22 @@ cask "status-trend" do
   on_macos do
     on_intel do
       url "https://github.com/aflansburg/status-trend/releases/download/v#{version}/status-trend_#{version}_darwin_amd64.tar.gz"
-      sha256 "899afce406bbd9f04fdba8002238d170c45d0a067986e1a6c39634023139f86d"
+      sha256 "68d91af0dd10f8912116849adcbbf38585c741464fb73814a1a870dc78e9007d"
     end
     on_arm do
       url "https://github.com/aflansburg/status-trend/releases/download/v#{version}/status-trend_#{version}_darwin_arm64.tar.gz"
-      sha256 "67826b01faa0b040b4723382698e0dedab7e7981603b4f6fa2eee0a0675ea7b1"
+      sha256 "56e7561d7ad33ab88ce7fc33ae6cec2c2ac6af95ecd79f34c22acc1a2898049f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/aflansburg/status-trend/releases/download/v#{version}/status-trend_#{version}_linux_amd64.tar.gz"
-      sha256 "d7e660ba5d9ddf93b2372be122454d0e415ca9ac7d968069c4e99d0116f0d3cf"
+      sha256 "0c246026958dd5770bf36bdeb4513acb67a1e74a951f1e0b4058536260608bc5"
     end
     on_arm do
       url "https://github.com/aflansburg/status-trend/releases/download/v#{version}/status-trend_#{version}_linux_arm64.tar.gz"
-      sha256 "5d47ab8d500353f1cab7fa375908eddd07402813aae8918a2537f42da79770d6"
+      sha256 "8d3f9c27a152101ebb31f9b87eaad757dcc811ad55c650c99f3183615b232076"
     end
   end
 
