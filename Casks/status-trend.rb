@@ -3,7 +3,7 @@ cask "status-trend" do
   name "status-trend"
   desc "Terminal dashboard for monitoring vendor status pages"
   homepage "https://github.com/aflansburg/status-trend"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "status-trend" do
   on_macos do
     on_intel do
       url "https://github.com/aflansburg/status-trend/releases/download/v#{version}/status-trend_#{version}_darwin_amd64.tar.gz"
-      sha256 "5df56e6cc863a71fd9cb888264324ea745972c467c5306b6acdfa4047b265721"
+      sha256 "3c3a8e4948e0751ad32f519e4a84a2188339dbd0c9a0f76e20c2a8c6ebadb66f"
     end
     on_arm do
       url "https://github.com/aflansburg/status-trend/releases/download/v#{version}/status-trend_#{version}_darwin_arm64.tar.gz"
-      sha256 "2d1a7dfac2b3912d4fe300143f3b5a6e943cf4728886542ad97f9ca7eda056e3"
+      sha256 "4703cc62430757afc7c3b52755f6374d04c8bdc8ba0360946ce80ebd6b3184da"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/aflansburg/status-trend/releases/download/v#{version}/status-trend_#{version}_linux_amd64.tar.gz"
-      sha256 "0f083d3a208ecbc3bdf46bdbe6f7279cc44fc11c0cc36091a0375949a523ed1e"
+      sha256 "9367a8a3cdd71fa28d8f0f528433e0a9a62c3045779fb0b3f21664749ba357f1"
     end
     on_arm do
       url "https://github.com/aflansburg/status-trend/releases/download/v#{version}/status-trend_#{version}_linux_arm64.tar.gz"
-      sha256 "9cf2234f427d21f47aa8d178cc8f10625fc101123c32b10bd205b82396ee9d51"
+      sha256 "979aa33efb877e38fdfe631417c8216391447dbc51948850417aa4b2c8bcf7b3"
     end
   end
 
